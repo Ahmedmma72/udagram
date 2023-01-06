@@ -1,5 +1,6 @@
 # Hosting a Full-Stack Application
 
+this is the third project for udacity Advanced full-stack development nanodegree program
 ### 
 
 
@@ -10,55 +11,65 @@ a simple application that includes all the major components of a Full-Stack web 
 
 
 
-### Dependencies
+##  🔥live 
+[udagram](http://randomahmedmma726.s3-website-us-east-1.amazonaws.com)
 
-```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+##  🔗API URL
+[udagram api](http://udagram-api-dev2222222222222.us-east-1.elasticbeanstalk.com/)
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+## 🎥Screenshots
+<hr/>
 
-- AWS CLI v2, v1 can work but was not tested for this project
+### 1. App fully deployed and working
+![app working](./screenshots/App%20fully%20deployed%20and%20working.png)
+<hr/>
 
-- A RDS database running Postgres.
+### 2. Server running on AWS
+![server running on aws](./screenshots/Server%20up%20and%20working.png)
 
-- A S3 bucket for hosting uploaded pictures.
+<hr/>
 
-```
+### 3. S3 bucket for web hosting
+![s3 bucket for static website](./screenshots/S3%20bucket%20for%20web%20hosting.png)
 
-### Installation
+<hr/>
 
-Provision the necessary AWS services needed for running the application:
+### 4. S3 bucket for media storage
 
-1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for tlink to classroom article>
-1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
-1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
-1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
+![s3 bucket for media storage](./screenshots/S3%20bucket%20for%20media%20storage.png)
 
-## Testing
+<hr/>
 
-This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
+### 5. RDS database
 
-1. `cd starter/udagram-frontend`
-1. `npm run test`
-1. `npm run e2e`
+![rds database](./screenshots/Database%20up%20and%20working.png)
 
-There are no Unit test on the back-end
+<hr/>
 
-### Unit Tests:
+### 6. CircleCI pipeline
 
-Unit tests are using the Jasmine Framework.
+![circleci pipeline](./screenshots/CircleCI%20dashboard.png)
 
-### End to End Tests:
+<hr/>
 
-The e2e tests are using Protractor and Jasmine.
+### 7. Envrioment variables
 
-## Built With
+![envrioment variables](./screenshots/Environment%20variables.png)
+
+<hr/>
+
+##  💻Built With
+<hr/>
 
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
+
+
 ## License
+<hr/>
 
 [License](LICENSE.txt)
+
+ 
